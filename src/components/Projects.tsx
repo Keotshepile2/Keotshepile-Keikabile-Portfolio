@@ -4,16 +4,26 @@ import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
-  const projects = [/*
+  const projects = [
     {
-      title: "E-Commerce Web Application",
-      description: "A full-stack e-commerce platform built with modern web technologies. Features include user authentication, product catalog, shopping cart, and payment integration.",
-      techStack: ["JavaScript", "HTML", "CSS", "SQL"],
-      category: "Software Engineering",
-      githubLink: "#",
-      demoLink: "#",
-      image: "🛒"
+      title: "Student Record Management System",
+      description:  "A full-stack web application developed using HTML, CSS, JavaScript, Node.js, Express.js, and MySQL for managing student records, module enrolments, authentication, academic transcripts, and institutional reporting. The system features role-based access control, PDF report generation, normalized database design, and is being extended with SQL analytics.",
+      techStack: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "SQL"],
+      category: "Full Stack Development",
+      githubLink: "https://github.com/Keotshepile2/Academic-Record-Management-System",
+      demoLink: "https://academic-record-management-system.vercel.app/",
+      image: "🎓"
     },
+    {
+  title: "Rock Paper Scissors Game",
+  description:
+    "An interactive browser-based game built with HTML, CSS, and JavaScript. The project demonstrates DOM manipulation, event handling, game logic, score tracking, and responsive UI design.",
+  techStack: ["HTML", "CSS", "JavaScript"],
+  category: "Frontend Development",
+  githubLink: "https://github.com/Keotshepile2/RockPaperScissorGame",
+  demoLink: "https://rock-paper-scissor-game-nine-fawn.vercel.app/",
+  image: "🎮"
+},/*
     {
       title: "Student Grade Analytics Dashboard",
       description: "A comprehensive data analysis project that visualizes student performance metrics and identifies trends to improve educational outcomes.",

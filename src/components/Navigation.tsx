@@ -69,6 +69,7 @@ const Navigation = () => {
               size="sm" 
               variant={isScrolled ? "default" : "outline"}
               className={isScrolled ? "" : "border-white/30 text-white hover:bg-white/10"}
+              onClick={() => window.open('/Keotshepile_Keikabile.pdf', '_blank')}
             >
               <Download className="w-4 h-4 mr-2" />
               CV
@@ -100,7 +101,11 @@ const Navigation = () => {
                 </button>
               ))}
               <div className="px-3 py-2">
-                <Button size="sm" className="w-full">
+                 
+                <Button size="sm" 
+                   className="w-full" 
+                   onClick={() => window.open('/Keotshepile_Keikabile.pdf', '_blank')}
+                   >
                   <Download className="w-4 h-4 mr-2" />
                   Download CV
                 </Button>
