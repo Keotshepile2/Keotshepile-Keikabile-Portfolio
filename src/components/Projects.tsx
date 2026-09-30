@@ -15,6 +15,28 @@ const Projects = () => {
       image: "🎓"
     },
     {
+  title: "Academic Performance Analytics & Decision Support System",
+  description:
+    "A full-stack academic analytics and decision-support system built alongside a Student Record Management System. It uses SQL analytics to monitor student, module, programme, and faculty performance, and a Python machine-learning pipeline with Logistic Regression to identify academically at-risk students and provide interpretable risk factors.",
+  techStack: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "MySQL",
+    "Python",
+    "scikit-learn",
+    "Chart.js"
+  ],
+  category: "Data Analytics & ML",
+  githubLink:
+    "https://github.com/Keotshepile2/Academic-Analytics-System",
+  demoLink:
+    "https://keotshepile2.github.io/Academic-Analytics-System-ProjectGuide/",
+  image: "📊"
+},
+    {
   title: "Rock Paper Scissors Game",
   description:
     "An interactive browser-based game built with HTML, CSS, and JavaScript. The project demonstrates DOM manipulation, event handling, game logic, score tracking, and responsive UI design.",
