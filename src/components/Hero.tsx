@@ -36,7 +36,7 @@ const Hero = () => {
           </p>
           
           <p className="text-lg md:text-xl mb-8 text-white/80 max-w-3xl mx-auto animate-slide-up" style={{animationDelay: '0.4s'}}>
-            BSc Mathematical and Computer Sciences student at Sol Plaatje University, combining mathematical reasoning, statistical analysis, and programming to solve real-world problems. Interested in quantitative finance, data science, and developing computational solutions that turn complex problems into meaningful insights.
+            BSc Mathematical and Computer Sciences | Passionate about combining mathematical reasoning, statistical analysis, and programming to solve real-world problems.
           </p>
 
           {/* CTA Buttons */}
