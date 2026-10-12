@@ -32,11 +32,11 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl mb-4 text-white/90 animate-slide-up" style={{animationDelay: '0.2s'}}>
-            Aspiring Mathematician, Software Engineer & Data Analyst
+            Aspiring Quantitative Analyst |Data Scientist | Software Developer
           </p>
           
           <p className="text-lg md:text-xl mb-8 text-white/80 max-w-3xl mx-auto animate-slide-up" style={{animationDelay: '0.4s'}}>
-            BSc in Mathematical and Computer Sciences | Passionate about solving complex problems through code and data
+            BSc Mathematical and Computer Sciences student at Sol Plaatje University, combining mathematical reasoning, statistical analysis, and programming to solve real-world problems. Interested in quantitative finance, data science, and developing computational solutions that turn complex problems into meaningful insights.
           </p>
 
           {/* CTA Buttons */}
@@ -46,7 +46,7 @@ const Hero = () => {
               className="bg-white text-primary hover:bg-white/90 shadow-medium"
               onClick={() => scrollToSection('projects')}
             >
-              View My Work
+              View My Projects
             </Button>
             <Button 
               size="lg" 

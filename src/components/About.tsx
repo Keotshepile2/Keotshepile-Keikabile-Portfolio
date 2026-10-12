@@ -10,8 +10,8 @@ const About = () => {
             About Me
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            I'm a passionate student with a deep love for mathematics, programming, and data analysis. 
-            My goal is to leverage technology to solve real-world problems and make a meaningful impact.
+            I'm a Mathematical and Computer Sciences student at Sol Plaatje University with a strong interest in mathematics, programming, and data-driven problem-solving. I enjoy exploring how mathematical principles, statistical methods, and computational techniques can be applied to understand complex problems and develop practical solutions.
+            My interests span mathematical research, quantitative finance, data science, and software development. I'm continually developing my analytical and technical skills through academic study, independent learning, and practical projects.
           </p>
         </div>
 
@@ -22,23 +22,20 @@ const About = () => {
               My Journey
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Currently pursuing my BSc in Mathematical and Computer Sciences, I'm fascinated by the intersection 
-              of mathematics and technology. Every day brings new challenges that fuel my curiosity and drive 
-              to learn more.
+            My academic journey brings together two areas I find particularly exciting: mathematics and computing.
+            Through my studies, I've developed an interest in mathematical reasoning, statistical analysis, algorithms, and computational problem-solving. Alongside my academic work, I've explored software development and database systems, building applications that organise information and support data-driven decision-making.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              I believe in the power of data-driven decisions and elegant code solutions. Whether it's 
-              building user-friendly applications or uncovering insights from complex datasets, 
-              I'm committed to excellence in everything I create.
+              I've also worked as a university tutor, helping students understand mathematical concepts and approach challenging problems systematically. This experience has strengthened my communication skills and reinforced my belief that complex ideas become more manageable when explained clearly and logically.
             </p>
             
             <div className="pt-4">
-              <h4 className="text-lg font-medium mb-3 text-foreground">Fun Facts About Me:</h4>
+              <h4 className="text-lg font-medium mb-3 text-foreground">A Few Things About Me:</h4>
               <ul className="space-y-2 text-muted-foreground">
-                <li>• Love solving mathematical puzzles in my free time</li>
-                <li>• Coffee enthusiast and late-night coder</li>
-                <li>• Always excited to learn new technologies</li>
-                <li>• Believe in writing clean, maintainable code</li>
+                <li>• I enjoy solving mathematical puzzles and exploring different approaches to challenging problems.</li>
+                <li>• I enjoy experimenting with code, building practical projects, and finding better ways to solve problems.</li>
+                <li>• I'm always eager to explore new technologies, strengthen my mathematical knowledge, and expand my technical skills</li>
+                <li>• I value logical reasoning, clean code, and solutions that are both effective and maintainable.</li>
               </ul>
             </div>
           </div>
@@ -56,9 +53,9 @@ const About = () => {
                     <GraduationCap className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-2">Mathematician</h4>
+                    <h4 className="font-semibold text-foreground mb-2">Mathematics & Research</h4>
                     <p className="text-sm text-muted-foreground">
-                      Applying mathematical theories to solve complex real-world problems and contribute to research.
+                      Developing a deeper understanding of mathematical structures, analysis, modelling, and computational methods, with the long-term ambition of pursuing postgraduate research and a PhD.
                     </p>
                   </div>
                 </CardContent>
@@ -70,9 +67,9 @@ const About = () => {
                     <Code className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-2">Software Engineer</h4>
+                    <h4 className="font-semibold text-foreground mb-2">Quantitative Finance</h4>
                     <p className="text-sm text-muted-foreground">
-                      Building scalable, efficient applications that make a positive impact on users' lives.
+                      Building the mathematical, statistical, and programming foundations needed to understand quantitative modelling, financial markets, risk analysis, and data-driven financial decision-making.
                     </p>
                   </div>
                 </CardContent>
@@ -84,9 +81,9 @@ const About = () => {
                     <BarChart3 className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-2">Data Analyst</h4>
+                    <h4 className="font-semibold text-foreground mb-2">Software Engineering & Data Science</h4>
                     <p className="text-sm text-muted-foreground">
-                      Transforming raw data into actionable insights that drive informed decision-making.
+                      Developing software applications, analysing complex datasets, and exploring machine learning techniques to build useful systems and extract meaningful insights from data.
                     </p>
                   </div>
                 </CardContent>
