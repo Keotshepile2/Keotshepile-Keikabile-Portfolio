@@ -5,6 +5,28 @@ import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
   const projects = [
+    
+{
+  title: "Retail Intelligence: Sales, Profitability & Customer Analytics",
+  description:
+    "An IN-PROGRESS Data Analytics and Business Intelligence project focused on analysing retail sales, profitability, discount patterns, regional performance, and customer behaviour. Using SQL, Python, and Power BI to transform transaction data into actionable business insights and evidence-based recommendations.",
+  techStack: [
+    "SQL",
+    "MySQL",
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "Power BI",
+    "Excel"
+  ],
+  category: "Data Analytics & BI",
+  githubLink:
+    "https://github.com/Keotshepile2/retail-intelligence-analytics",
+  demoLink: null,
+  image: "📈"
+},
+
     {
       title: "Student Record Management System",
       description:  "A full-stack web application developed using HTML, CSS, JavaScript, Node.js, Express.js, and MySQL for managing student records, module enrolments, authentication, academic transcripts, and institutional reporting. The system features role-based access control, PDF report generation, normalized database design, and is being extended with SQL analytics.",
